@@ -1,6 +1,6 @@
 """
-Napisz funkcję przyjmującą jako parametr liczbę N, która wygeneruje
-listę liczb od 1 do N, gdzie wszystkie liczby podzielne przez 3 zostaną
+Napisz funkcję przyjmującą jako parametr liczbę n, która wygeneruje
+listę liczb od 1 do n, gdzie wszystkie liczby podzielne przez 3 zostaną
 zastąpione słowem fuzz. Uwaga: w rozwiązaniu nie używaj pętli.
 """
 

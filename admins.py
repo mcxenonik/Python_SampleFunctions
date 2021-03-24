@@ -1,3 +1,9 @@
+"""
+Napisz funkcję, która dla zadanej listy adminów zwróci listę
+współrzędnych geograficznych miejsc zamieszkania każdego z nich.
+"""
+
+
 my_admins_full = [
     {
         "name": "Leanne Graham",
