@@ -16,7 +16,7 @@ poprawna.
 """
 
 
-def get_k_element_of_inverted_list(my_list):
+def get_element_of_inverted_list(my_list):
     max_index = len(my_list)
     input_text = f'Enter index of element (1 - {max_index}): '
     index = input(input_text)
@@ -29,4 +29,4 @@ def get_k_element_of_inverted_list(my_list):
 
 
 my_list = list(range(1, 11))
-print(get_k_element_of_inverted_list(my_list))
+print(get_element_of_inverted_list(my_list))
