@@ -1,7 +1,6 @@
 """
-Napisz funkcję rekurencyjną zwracającą piąty element ciągu Fibonacciego.
+Napisz funkcję rekurencyjną zwracającą n-ty element ciągu Fibonacciego.
 """
-
 
 def fibonacci(n):
     if (n == 0):
@@ -12,4 +11,5 @@ def fibonacci(n):
     return fibonacci(n-1) + fibonacci(n-2)
 
 
-print(fibonacci(5))
+if __name__ == "__main__":
+    print(fibonacci(10))

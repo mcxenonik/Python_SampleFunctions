@@ -5,7 +5,6 @@ słowie. Przykład: dla słowa "kukułka" funkcja powinna zwrócić:
 {'k': 3, 'u': 2, 'ł': 1, 'a': 1}
 """
 
-
 def word_to_dict(word):
     my_dict = {}
     for character in word:
@@ -17,4 +16,5 @@ def word_to_dict(word):
     return my_dict
 
 
-print(word_to_dict('kukulka'))
+if __name__ == "__main__":
+    print(word_to_dict('kukulka'))

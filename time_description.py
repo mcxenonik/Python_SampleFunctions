@@ -1,5 +1,10 @@
+"""
+Napisz funkcję, która zamieni podaną godzinę w formacie liczbowym
+na format opisowy.
+"""
+
 def time_description(hour, minutes):
-    slownik = {
+    str_time_dict = {
         '0':    "o'clock",
         '1':    'one',
         '2':    'two',
@@ -40,8 +45,8 @@ def time_description(hour, minutes):
         t = 'to'
         hour += 1
 
-    m = slownik[str(minutes)]
-    h = slownik[str(hour)]
+    m = str_time_dict[str(minutes)]
+    h = str_time_dict[str(hour)]
 
     if(minutes == 0):
         return f'{h} o\'clock'
@@ -49,5 +54,6 @@ def time_description(hour, minutes):
     return f'{m} minutes {t} {h}'
 
 
-print(time_description(11, 15))
+if __name__ == "__main__":
+    print(time_description(11, 15))
     
